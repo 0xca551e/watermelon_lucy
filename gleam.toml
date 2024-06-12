@@ -9,3 +9,7 @@ typescript_declarations = true
 
 [dependencies]
 gleam_stdlib = "~> 0.31"
+p5js_gleam = { path = "./p5js_gleam" }
+glector = ">= 1.1.0 and < 2.0.0"
+gleam_community_maths = ">= 1.1.1 and < 2.0.0"
+act = ">= 0.4.0 and < 1.0.0"

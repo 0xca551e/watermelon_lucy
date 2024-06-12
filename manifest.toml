@@ -2,8 +2,16 @@
 # You typically do not need to edit this file
 
 packages = [
+  { name = "act", version = "0.4.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "act", source = "hex", outer_checksum = "D6213A4B3EE53CEE3A9E7764F023808C0F9B6391730E558376A97A8F7EDAD645" },
+  { name = "gleam_community_maths", version = "1.1.1", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleam_community_maths", source = "hex", outer_checksum = "6C4ED7BC7E7DF6977719B5F2CFE717EE8280D1CF6EA81D55FD9953758C7FD14E" },
   { name = "gleam_stdlib", version = "0.38.0", build_tools = ["gleam"], requirements = [], otp_app = "gleam_stdlib", source = "hex", outer_checksum = "663CF11861179AF415A625307447775C09404E752FF99A24E2057C835319F1BE" },
+  { name = "glector", version = "1.1.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "glector", source = "hex", outer_checksum = "32F9E5B33FF9C301DD3EF5DC914C095C383A1E415E68F1C2CCBA5851AC56DB9F" },
+  { name = "p5js_gleam", version = "2.1.2", build_tools = ["gleam"], requirements = ["gleam_stdlib"], source = "local", path = "p5js_gleam" },
 ]
 
 [requirements]
+act = { version = ">= 0.4.0 and < 1.0.0" }
+gleam_community_maths = { version = ">= 1.1.1 and < 2.0.0" }
 gleam_stdlib = { version = "~> 0.31" }
+glector = { version = ">= 1.1.0 and < 2.0.0" }
+p5js_gleam = { path = "./p5js_gleam" }
