@@ -1,0 +1,11 @@
+name = "watermelon_lucy"
+version = "0.1.0"
+description = "a web project"
+
+target = "javascript"
+
+[javascript]
+typescript_declarations = true
+
+[dependencies]
+gleam_stdlib = "~> 0.31"

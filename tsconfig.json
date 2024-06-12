@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ESNext"],
+    "paths": {
+      "@assets/*": ["./assets/*"]
+    },
+    "plugins": [{ "name": "ts-gleam" }]
+  },
+  "include": ["src"]
+}
